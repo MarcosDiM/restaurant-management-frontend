@@ -1,0 +1,26 @@
+.homeCategorias {
+  width: 90%;
+}
+
+.buttonCategorias {
+  height: 6vh;
+  margin-bottom: 2%;
+}
+
+.categoriaElement {
+  height: 8vh;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonsCategoria {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.containerButtons {
+  display: flex;
+  justify-content: end;
+}

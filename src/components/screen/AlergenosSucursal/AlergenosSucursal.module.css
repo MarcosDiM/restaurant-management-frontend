@@ -1,0 +1,40 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 1rem;
+  width: 90%;
+}
+
+.listAlergenos {
+  border: 1px solid #d9d9d9;
+}
+
+.buttonAgregarAlergeno {
+  margin-bottom: 5vh;
+}
+
+.categoriasTabla {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2% 2% 2%;
+}
+
+.categoriasTabla h4 {
+  font-size: 1rem;
+  display: flex;
+  margin: 0% 5%;
+}
+
+.alergenoElement {
+  height: auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alergenoButtons {
+  display: flex;
+  gap: 1rem;
+}

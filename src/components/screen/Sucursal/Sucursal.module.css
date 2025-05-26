@@ -1,0 +1,57 @@
+.mainSucursal{
+    font-family: roboto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+.headerSucursal{
+    color: white;
+    background-color: #272627;
+    height: auto;
+    display: flex;
+    padding: 1rem;
+
+}
+
+.container {
+    display: flex;
+    flex: 1; 
+}
+
+.navSucursal{
+    color: white;
+    background-color: #1b5939;
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content {
+    flex: 1;
+    padding: 1rem; 
+    overflow-y: auto; 
+}
+
+.buttonsNavSucursal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+}
+
+.tittleNav{
+    padding-top: 1.5rem;
+    font-size: 2vw;
+    
+}
+
+
+

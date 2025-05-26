@@ -1,0 +1,30 @@
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .modalFooter {
+    display: flex;
+    justify-content: space-between;
+}
+.closeButton {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.confirmButton {
+    background-color: green;
+    border-radius: 0.4rem;
+    color: white;
+    border-color: green;
+}
+.closeButton:hover {
+    background-color: red;
+    color: white;
+    border-color: transparent;
+}
+.confirmButton:hover {
+    background-color: green;
+    color: white;
+    border-color: transparent;
+}
